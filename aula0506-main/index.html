@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+        <h1>Calculadora</h1>    
+
+        <form>
+            Digite um valor númerico:
+            <br/>
+            <input type="number" max="10" min="1" id="n1">
+            <br>
+            Digite o segundo valor númerico:
+            <br/>
+            <input type="number" max="10" min="1" id="n2">
+            <br>
+
+            <input type="button" value="Calucular" onclick="calcular()">
+            <h3>Resultado:</h3>
+            <p id="resultado"></p>
+
+        </form>
+
+        <script>
+            function calcular(){
+                //Entrada
+                const n1 = parseInt.getElementById('n1').value;
+                const n2 = document.getElementById('n2').value;
+                //Processamento
+                     let soma = n1 + n2;
+                        //Saida
+                        document.getElementById9('resultado').innerText = soma;
+                alert('n1');
+
+            }
+
+
+
+
+
+        </script>
+</body>
+</html>
